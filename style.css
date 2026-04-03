@@ -859,3 +859,180 @@ main>.section-contact>.contact-container>.contact-form-wrap>.contact-form .submi
         padding-right: 16px;
     }
 }
+
+@media (max-width: 600px) {
+
+  
+  nav {
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  nav > div {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+ 
+  main > .hero > img {
+    width: 100%;
+    height: auto;
+  }
+
+  main > .section {
+    margin: 60px 15px;
+  }
+
+
+  main > .section > h2 > p {
+    margin-left: 0;
+    display: block;
+    margin-top: 10px;
+  }
+
+  main > .section > .Container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  main > .section > .Container > .innerContainer {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    padding: 20px;
+  }
+
+
+  main > .section-industries {
+    padding: 40px 15px;
+  }
+
+  main > .section-industries > .slide-Container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  main > .section-industries > .slide-Container > .slide > .track {
+    width: 100%;
+    gap: 10px;
+  }
+
+  main > .section-industries > .slide-Container > .slide > .track > .slide-item {
+    flex: 0 0 100% !important;
+    max-width: 100%;
+  }
+
+  .slide-item img {
+    width: 100%;
+    height: 200px !important;
+    object-fit: cover;
+  }
+
+  .slide-caption {
+    padding: 10px;
+  }
+
+  .slide-caption p {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  .slide-btn {
+    width: 40px;
+    height: 40px;
+  }
+
+
+
+  main > #Why_choose_US > .why-slide {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  main > #Why_choose_US > .why-slide > .slide > .track {
+    width: 100%;
+  }
+
+  main > #Why_choose_US > .why-slide > .slide > .track > img {
+    flex: 0 0 100% !important;
+    max-width: 100%;
+    height: auto;
+  }
+
+ 
+
+  main > .section-testimonials {
+    padding: 40px 15px;
+  }
+
+  main > .section-testimonials > .testimonial-headline {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  main > .section-testimonials > .testimonial-slider {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  main > .section-testimonials 
+  > .testimonial-slider 
+  > .testimonial-track-wrapper 
+  > .testimonial-track {
+    width: 100%;
+  }
+
+  main > .section-testimonials 
+  > .testimonial-slider 
+  > .testimonial-track-wrapper 
+  > .testimonial-track 
+  > .testimonial-card {
+    flex: 0 0 100% !important;
+    max-width: 100%;
+  }
+
+ 
+
+  main > .section-contact {
+    padding: 40px 15px;
+  }
+
+  main > .section-contact > .contact-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
+@media (max-width: 1024px) {
+
+  nav {
+    gap: 40px;
+  }
+
+  main > .section {
+    margin: 80px 30px;
+  }
+
+  main > .section > .Container > .innerContainer {
+    width: calc(50% - 20px);
+  }
+
+  
+  main > .section-industries 
+  > .slide-Container 
+  > .slide 
+  > .track > .slide-item {
+    flex: 0 0 50%;
+  }
+
+ 
+  main > #Why_choose_US 
+  > .why-slide 
+  > .slide 
+  > .track > img {
+    flex: 0 0 50%;
+  }
+}
